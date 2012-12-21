@@ -29,10 +29,10 @@ class GoogleCheckoutXmlTest extends CTestCase
 
     public function testGenerateCartXml()
     {
-        $xml = Yii::app()->getComponent('googlecheckout')->getConfigObj()->continueShoppingUrl = false;
+        $xml = Yii::app()->getComponent('googlecheckout')->getConfigObj()->continueShoppingUrl = '';
         $xml = Yii::app()->getComponent('googlecheckout')->getXmlObj()
                 ->generateCartXml($this->order);
-         
+
         $this->assertTrue(
                 $xml == '<?xml version="1.0" encoding="UTF-8"?><checkout-shopping-cart xmlns="http://checkout.google.com/schema/2">   <shopping-cart>       <merchant-private-data>           <order_id>1</order_id>       </merchant-private-data>       <items><item>   <merchant-item-id>1</merchant-item-id>   <item-name>Title</item-name>   <item-description>Description</item-description>   <unit-price currency="USD">35.00</unit-price>   <quantity>2</quantity></item><item>   <merchant-item-id>2</merchant-item-id>   <item-name>Title</item-name>   <item-description>Description</item-description>   <unit-price currency="USD">35.00</unit-price>   <quantity>2</quantity></item><item>   <merchant-item-id>3</merchant-item-id>   <item-name>Title</item-name>   <item-description>Description</item-description>   <unit-price currency="USD">35.00</unit-price>   <quantity>2</quantity></item><item>   <merchant-item-id>4</merchant-item-id>   <item-name>Title</item-name>   <item-description>Description</item-description>   <unit-price currency="USD">35.00</unit-price>   <quantity>2</quantity></item><item>   <merchant-item-id>5</merchant-item-id>   <item-name>Title</item-name>   <item-description>Description</item-description>   <unit-price currency="USD">35.00</unit-price>   <quantity>2</quantity></item><item>   <merchant-item-id>6</merchant-item-id>   <item-name>Title</item-name>   <item-description>Description</item-description>   <unit-price currency="USD">35.00</unit-price>   <quantity>2</quantity></item>       </items>   </shopping-cart>   <checkout-flow-support>       <merchant-checkout-flow-support><continue-shopping-url>   http://www.yii.tvorzasp.com/googlecheckout/index.php</continue-shopping-url>       </merchant-checkout-flow-support>   </checkout-flow-support></checkout-shopping-cart>'
         );
