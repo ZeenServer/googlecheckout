@@ -1,3 +1,3 @@
 # Экстеншен для работы с гуглчекаутом
 
-Можно почитать на [http://tvorzasp.com](http://tvorzasp.com)
+Подробности можно почитать на [http://tvorzasp.com](http://tvorzasp.com/blog/yii-i-google-checkout)
