@@ -14,5 +14,8 @@
             "email": "tvorzasp@tvorzasp.com",
             "homepage": "http://tvorzasp.com/"
         }
-    ]
+    ],
+	"config": {
+        "vendor-dir": "./protected/"
+    }
 }
