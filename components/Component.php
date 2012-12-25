@@ -8,7 +8,7 @@
  * @license http://doc.tvorzasp.com/COPYING.txt
  */
 
-namespace ext\googlecheckout\components;
+namespace ext\tvr\googlecheckout\components;
 use \Yii;
 
 /**
@@ -25,25 +25,25 @@ class Component extends AbstractComponent
      * Class name Api for XML generation
      * @var string
      */
-    public $xmlClass = '\ext\googlecheckout\components\Xml';
+    public $xmlClass = '\ext\tvr\googlecheckout\components\Xml';
 
     /**
      * Class name for config access
      * @var string
      */
-    public $configClass = '\ext\googlecheckout\components\Config';
+    public $configClass = '\ext\tvr\googlecheckout\components\Config';
 
     /**
      * Wrapper class name over standard Google Checkout api class
      * @var string
      */
-    public $requestClass = '\ext\googlecheckout\components\Request';
+    public $requestClass = '\ext\tvr\googlecheckout\components\Request';
 
     /**
      * Wrapper class name over standard Google Checkout api class
      * @var string
      */
-    public $responseClass = '\ext\googlecheckout\components\Response';
+    public $responseClass = '\ext\tvr\googlecheckout\components\Response';
 
     /**
      * GoogleCheckout merchant options

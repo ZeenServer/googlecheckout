@@ -8,7 +8,7 @@
  * @license http://doc.tvorzasp.com/COPYING.txt
  */
 
-namespace ext\googlecheckout\components;
+namespace ext\tvr\googlecheckout\components;
 use \Yii;
 
 /**

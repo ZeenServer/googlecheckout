@@ -1,5 +1,5 @@
 {
-    "name":"extensions/googlecheckout",
+    "name":"tvr/googlecheckout",
 	"description": "Google Checkout extensions for Yii",
     "type": "extension",
     "license": "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE",

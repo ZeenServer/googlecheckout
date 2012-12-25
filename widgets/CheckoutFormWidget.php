@@ -9,7 +9,7 @@
  */
 
 
-namespace ext\googlecheckout\widgets;
+namespace ext\tvr\googlecheckout\widgets;
 use Yii;
 /**
  * GoogleCheckout CheckoutFormWidget widget file

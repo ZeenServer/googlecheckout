@@ -8,9 +8,9 @@
  * @license http://doc.tvorzasp.com/COPYING.txt
  */
 
-namespace ext\googlecheckout\actions;
-use \ext\googlecheckout\exceptions as exceptions;
-use \ext\googlecheckout\components as components;
+namespace ext\tvr\googlecheckout\actions;
+use \ext\tvr\googlecheckout\exceptions as exceptions;
+use \ext\tvr\googlecheckout\components as components;
 use \Yii;
 
 /**

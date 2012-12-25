@@ -7,7 +7,7 @@
  * @copyright Copyright &copy; horechek
  * @license http://doc.tvorzasp.com/COPYING.txt
  */
-namespace ext\googlecheckout\components\interfaces;
+namespace ext\tvr\googlecheckout\components\interfaces;
 
 /**
  * IOrder class.

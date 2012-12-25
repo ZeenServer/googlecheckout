@@ -8,8 +8,8 @@
  * @license http://doc.tvorzasp.com/COPYING.txt
  */
 
-namespace ext\googlecheckout\components;
-use \ext\googlecheckout\exceptions as exceptions;
+namespace ext\tvr\googlecheckout\components;
+use \ext\tvr\googlecheckout\exceptions as exceptions;
 use \Yii;
 
 require_once dirname(__FILE__)."/../vendors/google/library/googlenotificationhistory.php";

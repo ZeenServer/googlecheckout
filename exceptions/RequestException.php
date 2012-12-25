@@ -1,5 +1,5 @@
 <?php
-namespace ext\googlecheckout\exceptions;
+namespace ext\tvr\googlecheckout\exceptions;
 
 class RequestException extends \Exception
 {
