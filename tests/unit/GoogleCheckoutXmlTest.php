@@ -1,8 +1,8 @@
 <?php
 
-Yii::import('\ext\googlecheckout\components\interfaces\IGoogleCheckoutOrder');
+Yii::import('\ext\tvr\googlecheckout\components\interfaces\IGoogleCheckoutOrder');
 
-use \ext\googlecheckout\components\interfaces as interfaces;
+use \ext\tvr\googlecheckout\components\interfaces as interfaces;
 
 class GoogleCheckoutXmlTest extends CTestCase
 {
@@ -24,7 +24,7 @@ class GoogleCheckoutXmlTest extends CTestCase
     public function testInit()
     {
         $xmlGenObj = Yii::app()->getComponent('googlecheckout')->getXmlObj();
-        $this->assertInstanceOf('\ext\googlecheckout\components\Xml', $xmlGenObj);
+        $this->assertInstanceOf('\ext\tvr\googlecheckout\components\Xml', $xmlGenObj);
     }
 
     public function testGenerateCartXml()

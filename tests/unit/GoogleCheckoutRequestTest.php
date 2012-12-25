@@ -1,6 +1,6 @@
 <?php 
 
-use \ext\googlecheckout\exceptions as exceptions;
+use \ext\tvr\googlecheckout\exceptions as exceptions;
 class GoogleCheckoutRequestTest extends CTestCase
 {
     public $serialNumber = false; 
@@ -16,7 +16,7 @@ class GoogleCheckoutRequestTest extends CTestCase
     public function testRequest()
     {
         $request = Yii::app()->getComponent('googlecheckout')->getRequestObj();
-        $this->assertInstanceOf('\ext\googlecheckout\components\Request', $request);
+        $this->assertInstanceOf('\ext\tvr\googlecheckout\components\Request', $request);
     }
 
     public function testResponse()
@@ -24,14 +24,14 @@ class GoogleCheckoutRequestTest extends CTestCase
         $request = Yii::app()->getComponent('googlecheckout')->getRequestObj();
         $request->serialNumber = $this->serialNumber;
         $response = $request->doRequest(); 
-        $this->assertsInstanceOf('\ext\googlecheckout\components\Response', $response);
+        $this->assertsInstanceOf('\ext\tvr\googlecheckout\components\Response', $response);
         
         $this->assertTrue($response->getOrderId() == 1 );
 
     }
 
     /**
-     * @expectedException ext\googlecheckout\exceptions\RequestException
+     * @expectedException ext\tvr\googlecheckout\exceptions\RequestException
      */
     public function testRequestException()
     {
