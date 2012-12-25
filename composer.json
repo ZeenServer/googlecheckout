@@ -1,13 +1,13 @@
 {
     "name":"tvr/googlecheckout",
-	"description": "Google Checkout extensions for Yii",
+    "description": "Google Checkout extensions for Yii",
     "type": "extension",
     "license": "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE",
     "version":"dev-master",
     "require":{
         "php":">=5.3.0"
     },
-	"homepage": "http://tvorzasp.com/",
+    "homepage": "http://tvorzasp.com/",
     "authors": [
         {
             "name": "Kovardin Artem",
